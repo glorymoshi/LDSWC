@@ -9,28 +9,19 @@ export default class CheckboxButton extends LitElement {
       /**
        * Optional additional className
        */
-      className: {
-        type: String
-      },
+      className: { type: String },
       /**
        * Checkbox state
        */
-      checked: {
-        type: Boolean
-      },
+      checked: { type: Boolean },
       /**
        * `id` of input. Links input and label
        */
-      id: {
-        type: String
-      },
+      id: { type: String },
       /**
        * Input label, will be present for screen readers
        */
-      label: {
-        type: String
-      },
-
+      label: { type: String },
     }
   }
 
